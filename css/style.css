@@ -8454,7 +8454,10 @@ h1, h2, h3, h4, h5,
         z-index: 0; }
         @media (max-width: 991.98px) {
           .owl-carousel.home-slider .slider-item .slider-text {
-            text-align: center; } }
+            text-align: center; }
+          .owl-carousel.home-slider .slider-item,.owl-carousel.home-slider {
+            height: 500px;
+          }}
         .owl-carousel.home-slider .slider-item .slider-text .one-third {
           width: 60%;
           position: relative;

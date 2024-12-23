@@ -1288,6 +1288,6 @@ section,
 }
 @media (max-width: 768px) { /* Adjust this value as needed */
   .hero{
-    min-height: 60vh;
+    min-height: 70vh;
   }
 }

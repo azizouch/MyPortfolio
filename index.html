@@ -41,8 +41,13 @@
       <a href="index.html" class="logo d-flex align-items-center justify-content-center">
         <!-- Uncomment the line below if you also wish to use an image logo -->
         <!-- <img src="assets/img/logo.png" alt=""> -->
-        <h1 class="sitename">Abde laziz Ouchouar</h1>
+        <h1 class="sitename" data-i18n="name">Abde laziz Ouchouar</h1>
       </a>
+      <div class="mb-2 text-center">
+        <a href="#" onclick="changeLanguage('en')">English</a> |
+        <a href="#" onclick="changeLanguage('fr')">Français</a> |
+        <a href="#" onclick="changeLanguage('ar')">العربية</a>
+      </div>
 
       <div class="social-links text-center">
         <a href="https://wa.me/212617794638" target="_blank" class="whatsapp"><i class="bi bi-whatsapp"></i></a>
@@ -54,29 +59,29 @@
 
       <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="#hero" class="active"><i class="bi bi-house navicon"></i>Home</a></li>
-          <li><a href="#about"><i class="bi bi-person navicon"></i> About</a></li>
-          <li><a href="#resume"><i class="bi bi-file-earmark-text navicon"></i> Resume</a></li>
-          <li><a href="#portfolio"><i class="bi bi-images navicon"></i> Portfolio</a></li>
-          <li><a href="#services"><i class="bi bi-hdd-stack navicon"></i> Services</a></li>
-          <li class="dropdown"><a href="#"><i class="bi bi-menu-button navicon"></i> <span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-            <ul>
-              <li><a href="#">Dropdown 1</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-                <ul>
-                  <li><a href="#">Deep Dropdown 1</a></li>
-                  <li><a href="#">Deep Dropdown 2</a></li>
-                  <li><a href="#">Deep Dropdown 3</a></li>
-                  <li><a href="#">Deep Dropdown 4</a></li>
-                  <li><a href="#">Deep Dropdown 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Dropdown 2</a></li>
-              <li><a href="#">Dropdown 3</a></li>
-              <li><a href="#">Dropdown 4</a></li>
-            </ul>
-          </li>
-          <li><a href="#contact"><i class="bi bi-envelope navicon"></i> Contact</a></li>
+          <li><a href="#hero" class="active"><i class="bi bi-house navicon"></i><span data-i18n="home">Home</span></a></li>
+          <li><a href="#about"><i class="bi bi-person navicon"></i><span data-i18n="about">About</span></a></li>
+          <li><a href="#resume"><i class="bi bi-file-earmark-text navicon"></i><span data-i18n="resume">Resume</span></a></li>
+          <li><a href="#portfolio"><i class="bi bi-images navicon"></i><span data-i18n="portfolio">Portfolio</span></a></li>
+          <li><a href="#services"><i class="bi bi-hdd-stack navicon"></i><span data-i18n="services">Services</span></a></li>
+<!--          <li class="dropdown"><a href="#"><i class="bi bi-menu-button navicon"></i> <span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>-->
+<!--            <ul>-->
+<!--              <li><a href="#">Dropdown 1</a></li>-->
+<!--              <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>-->
+<!--                <ul>-->
+<!--                  <li><a href="#">Deep Dropdown 1</a></li>-->
+<!--                  <li><a href="#">Deep Dropdown 2</a></li>-->
+<!--                  <li><a href="#">Deep Dropdown 3</a></li>-->
+<!--                  <li><a href="#">Deep Dropdown 4</a></li>-->
+<!--                  <li><a href="#">Deep Dropdown 5</a></li>-->
+<!--                </ul>-->
+<!--              </li>-->
+<!--              <li><a href="#">Dropdown 2</a></li>-->
+<!--              <li><a href="#">Dropdown 3</a></li>-->
+<!--              <li><a href="#">Dropdown 4</a></li>-->
+<!--            </ul>-->
+<!--          </li>-->
+          <li><a href="#contact"><i class="bi bi-envelope navicon"></i><span data-i18n="contact">Contact</span></a></li>
         </ul>
       </nav>
 
@@ -90,8 +95,8 @@
         <img src="assets/img/hero_bg.png" alt="" data-aos="fade-in" class="img_hero">
 
         <div class="container text-center" data-aos="fade-up" data-aos-delay="100">
-          <h2>Abde laziz Ouchouar</h2>
-          <p>I'm <span class="typed" data-typed-items="Web Developer, Freelancer">Designer</span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span></p>
+          <h2 data-i18n="name">Abde laziz Ouchouar</h2>
+          <p><span data-i18n="title" >I'm </span> <span class="typed" data-typed-items="Web Developer, Freelancer">Designer</span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span></p>
         </div>
 
       </section><!-- /Hero Section -->
@@ -101,8 +106,8 @@
 
         <!-- Section Title -->
         <div class="container section-title pb-4" data-aos="fade-up">
-          <h2>About</h2>
-          <p>My name is Abde Laziz, I am 26 years old, I am able to effectively carry out the mission that will be assigned. My adaptability and my team spirit will make me a good element within your team.</p>
+          <h2 data-i18n="about">About</h2>
+          <p data-i18n="introduction">My name is Abde Laziz, I am 26 years old, I am able to effectively carry out the mission that will be assigned. My adaptability and my team spirit will make me a good element within your team.</p>
         </div><!-- End Section Title -->
 
         <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -112,33 +117,33 @@
               <img src="assets/img/bg_img_11.png" class="img-fluid rounded" alt="">
             </div>
             <div class="col-lg-8 content">
-              <h2>Web Developer &amp; Desktop Developer.</h2>
-              <p class="fst-italic py-3">
+              <h2 data-i18n="profession" >Web Developer &amp; Desktop Developer.</h2>
+              <p class="fst-italic py-3" data-i18n="objective">
                 I want to gain experience in different fields such as the developement of mobile, desktop and web applications.
               </p>
               <div class="row">
                 <div class="col-lg-6">
                   <ul>
-                    <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>January 02, 1998</span></li>
-                    <li><i class="bi bi-chevron-right"></i> <strong>Address:</strong> <span>Quartier Azentou Ait Ourir Marrakech</span></li>
-                    <li><i class="bi bi-chevron-right"></i> <strong>Zip code:</strong> <span>42050</span></li>
-                    <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Ait Ourir, Marrakech</span></li>
+                    <li><i class="bi bi-chevron-right"></i> <strong data-i18n="birthday_label">Birthday:</strong> <span data-i18n="birthday_value">January 02, 1998</span></li>
+                    <li><i class="bi bi-chevron-right"></i> <strong data-i18n="address_label">Address:</strong> <span data-i18n="address_value">Quartier Azentou Ait Ourir Marrakech</span></li>
+                    <li><i class="bi bi-chevron-right"></i> <strong data-i18n="zip_label">Zip code:</strong> <span>42050</span></li>
+                    <li><i class="bi bi-chevron-right"></i> <strong data-i18n="city_label">City:</strong> <span data-i18n="city_value">Ait Ourir, Marrakech</span></li>
                   </ul>
                 </div>
                 <div class="col-lg-6">
                   <ul>
-                    <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>26</span></li>
-                    <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>(+212)6 17 79 46 38</span></li>
-                    <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>abdelazizochwar@gmail.com</span></li>
-                    <li><i class="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>Available</span></li>
+                    <li><i class="bi bi-chevron-right"></i> <strong data-i18n="age_label">Age:</strong> <span>26</span></li>
+                    <li><i class="bi bi-chevron-right"></i> <strong data-i18n="phone_label">Phone:</strong> <span>(+212)6 17 79 46 38</span></li>
+                    <li><i class="bi bi-chevron-right"></i> <strong data-i18n="email_label">Email:</strong> <span>abdelazizochwar@gmail.com</span></li>
+                    <li><i class="bi bi-chevron-right"></i> <strong data-i18n="freelance_label">Freelance:</strong> <span data-i18n="freelance_status">Available</span></li>
                   </ul>
                 </div>
               </div>
               <p class="py-3 fw-bold">
                 <i class="bi bi-chevron-right"></i>
-                Dynamic - Serious - Responsible - Team spirit
+                <span data-i18n="qualities" >Dynamic - Serious - Responsible - Team spirit</span>
               </p>
-              <button type="submit" onclick="window.open('myCV.pdf', '_blank')">Download CV</button>
+              <button type="submit" onclick="window.open('myCV.pdf', '_blank')" data-i18n="download_cv">Download CV</button>
             </div>
           </div>
 
@@ -157,7 +162,7 @@
               <div class="stats-item">
                 <i class="bi bi-emoji-smile"></i>
                 <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" class="purecounter"></span>
-                <p><strong>Happy Clients</strong> <span>consequuntur quae</span></p>
+                <p><strong data-i18n="happy_clients">Happy Clients</strong> <span>consequuntur quae</span></p>
               </div>
             </div><!-- End Stats Item -->
 
@@ -165,7 +170,7 @@
               <div class="stats-item">
                 <i class="bi bi-journal-richtext"></i>
                 <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1" class="purecounter"></span>
-                <p><strong>Projects</strong> <span>adipisci atque cum quia aut</span></p>
+                <p><strong data-i18n="projects" >Projects</strong> <span>adipisci atque cum quia aut</span></p>
               </div>
             </div><!-- End Stats Item -->
 
@@ -173,7 +178,7 @@
               <div class="stats-item">
                 <i class="bi bi-headset"></i>
                 <span data-purecounter-start="0" data-purecounter-end="1453" data-purecounter-duration="1" class="purecounter"></span>
-                <p><strong>Hours Of Support</strong> <span>aut commodi quaerat</span></p>
+                <p><strong data-i18n="hours_of_support" >Hours Of Support</strong> <span>aut commodi quaerat</span></p>
               </div>
             </div><!-- End Stats Item -->
 
@@ -181,7 +186,7 @@
               <div class="stats-item">
                 <i class="bi bi-people"></i>
                 <span data-purecounter-start="0" data-purecounter-end="32" data-purecounter-duration="1" class="purecounter"></span>
-                <p><strong>Hard Workers</strong> <span>rerum asperiores dolor</span></p>
+                <p><strong data-i18n="hard_workers" >Hard Workers</strong> <span>rerum asperiores dolor</span></p>
               </div>
             </div><!-- End Stats Item -->
 
@@ -196,7 +201,7 @@
 
         <!-- Section Title -->
         <div class="container section-title" data-aos="fade-up">
-          <h2>Skills</h2>
+          <h2 data-i18n="skills" >Skills</h2>
           <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
         </div><!-- End Section Title -->
 
@@ -294,8 +299,8 @@
 
         <!-- Section Title -->
         <div class="container section-title" data-aos="fade-up">
-          <h2>Resume</h2>
-          <p>Driven by a passion for crafting innovative and user-friendly digital experiences, I am dedicated to building websites and applications that combine functionality with seamless design. I embrace challenges as opportunities to learn and innovate in the ever-evolving world of web development.</p>
+          <h2 data-i18n="resume" >Resume</h2>
+          <p data-i18n="passion_statement" >Driven by a passion for crafting innovative and user-friendly digital experiences, I am dedicated to building websites and applications that combine functionality with seamless design. I embrace challenges as opportunities to learn and innovate in the ever-evolving world of web development.</p>
         </div><!-- End Section Title -->
 
         <div class="container">
@@ -303,81 +308,81 @@
           <div class="row">
 
             <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-              <h3 class="resume-title">Sumary</h3>
+              <h3 class="resume-title" data-i18n="Sumary" >Sumary</h3>
 
               <div class="resume-item pb-0">
-                <h4>Abde laziz ouchouar</h4>
-                <p><em>Innovative and deadline-driven Web Developer with 1+ years of experience designing and developing user-centered websites and applications, from initial concept to final, polished deliverable.</em></p>
+                <h4 data-i18n="name" >Abde laziz ouchouar</h4>
+                <p><em data-i18n="summary_parag" >Innovative and deadline-driven Web Developer with 1+ years of experience designing and developing user-centered websites and applications, from initial concept to final, polished deliverable.</em></p>
                 <ul>
-                  <li>Quartier Azentou Ait Ourir Marrakech</li>
+                  <li data-i18n="address_value" >Quartier Azentou Ait Ourir Marrakech</li>
                   <li>(+212)6 17 79 46 38</li>
                   <li>abdelazizochwar@gmail.com</li>
                 </ul>
               </div><!-- Edn Resume Item -->
 
-              <h3 class="resume-title">Education</h3>
+              <h3 class="resume-title" data-i18n="education" >Education</h3>
 
               <div class="resume-item">
-                <h4>Baccalaureate</h4>
+                <h4 data-i18n="baccalaureate" >Baccalaureate</h4>
                 <h5>2017 - 2018</h5>
-                <p><em>LYCEE ABTIH - Ait Ourir</em></p>
-                <p>Life and Earth Science</p>
+                <p><em data-i18n="lycee_abtih" >LYCEE ABTIH</em> - <em data-i18n="ait_ourir" >Ait Ourir</em></p>
+                <p data-i18n="life_earth_science" >Life and Earth Science</p>
               </div><!-- Edn Resume Item -->
 
               <div class="resume-item">
-                <h4>Diploma</h4>
+                <h4 data-i18n="diploma" >Diploma</h4>
                 <h5>2019 - 2020</h5>
-                <p><em>ISTA NTIC SYBA - Marrakech</em></p>
-                <p>Specialized Technician in IT Development</p>
+                <p><em data-i18n="ista_ntic_syba" >ISTA NTIC SYBA - Marrakech</em></p>
+                <p data-i18n="specialized_technician" >Specialized Technician in IT Development</p>
               </div><!-- Edn Resume Item -->
 
               <div class="resume-item">
-                <h4>Certificate</h4>
+                <h4 data-i18n="certificate">Certificate</h4>
                 <h5>2021 - 2022</h5>
-                <p><em>ISTA NTIC SYBA - Marrakech</em></p>
-                <p>Qualifying Training in Python</p>
+                <p><em data-i18n="ista_ntic_syba">ISTA NTIC SYBA - Marrakech</em></p>
+                <p data-i18n="qualifying_training">Qualifying Training in Python</p>
               </div><!-- Edn Resume Item -->
 
               <div class="resume-item">
-                <h4>Baccalaureate</h4>
+                <h4 data-i18n="baccalaureate">Baccalaureate</h4>
                 <h5>2021 - 2022</h5>
-                <p><em>LYCEE ABTIH - Ait Ourir</em></p>
-                <p>Free Baccalaureate in Letters and Human Sciences</p>
+                <p><em data-i18n="lycee_abtih" >LYCEE ABTIH</em> - <em data-i18n="ait_ourir" >Ait Ourir</em></p>
+                <p data-i18n="free_baccalaureate">Free Baccalaureate in Letters and Human Sciences</p>
               </div><!-- Edn Resume Item -->
 
             </div>
 
             <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
-              <h3 class="resume-title">Professional Experience</h3>
+              <h3 class="resume-title" data-i18n="professional_experience">Professional Experience</h3>
 
               <div class="resume-item">
-                <h4>Intern</h4>
+                <h4 data-i18n="intern">Intern</h4>
                 <h5>03/2020 - 05/2020</h5>
-                <p><em>M.SAYSY company - Casablanca</em></p>
+                <p><em data-i18n="msaysy_company">M.SAYSY company - Casablanca</em></p>
                 <ul>
-                  <li>Development and creation of a desktop stock management application.</li>
+                  <li data-i18n="desktop_application">Development and creation of a desktop stock management application.</li>
                 </ul>
               </div><!-- Edn Resume Item -->
 
               <div class="resume-item">
-                <h4>Stock Manager</h4>
+                <h4 data-i18n="stock_manager">Stock Manager</h4>
                 <h5>05/2020 - 10/2020</h5>
-                <p><em>M.SAYSY company - Casablanca</em></p>
+                <p><em data-i18n="msaysy_company">M.SAYSY company - Casablanca</em></p>
                 <ul>
-                  <li>Manage negative and positive stocks of raw materials</li>
-                  <li>Receive and issue orders. </li>
+                  <li data-i18n="manage_stocks">Manage negative and positive stocks of raw materials</li>
+                  <li data-i18n="receive_orders">Receive and issue orders. </li>
                 </ul>
               </div><!-- Edn Resume Item -->
 
               <div class="resume-item">
-                <h4>Employee</h4>
+                <h4 data-i18n="employee">Employee</h4>
                 <h5>10/2024 - 12/2024</h5>
-                <p><em>Notaire.Maitre Kamal Boutaskiouine - Marrakech</em></p>
+                <p><em data-i18n="notaire_kamal">Notaire.Maitre Kamal Boutaskiouine - Marrakech</em></p>
                 <ul>
-                  <li>Creating contracts in Word. </li>
-                  <li>Saving contrats in Tawtik website and organizing files.</li>
-                  <li>Creating general lists of clients in Excel.</li>
-                  <li>Signing contracts with customers.</li>
+                  <li data-i18n="create_contracts">Creating contracts in Word. </li>
+                  <li data-i18n="save_contracts">Saving contrats in Tawtik website and organizing files.</li>
+                  <li data-i18n="create_client_lists">Creating general lists of clients in Excel.</li>
+                  <li data-i18n="sign_contracts">Signing contracts with customers.</li>
                 </ul>
               </div><!-- Edn Resume Item -->
 
@@ -404,10 +409,10 @@
 
             <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
               <li data-filter="*" class="filter-active">All</li>
-              <li data-filter=".filter-app">App</li>
-              <li data-filter=".filter-product">Product</li>
-              <li data-filter=".filter-branding">Branding</li>
-              <li data-filter=".filter-books">Books</li>
+              <li data-filter=".filter-app">Logos</li>
+              <li data-filter=".filter-product">Symfony Projects</li>
+              <li data-filter=".filter-branding">Django Projects</li>
+              <li data-filter=".filter-books">Desktop Projects</li>
             </ul><!-- End Portfolio Filters -->
 
             <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
@@ -834,8 +839,8 @@
     <footer id="footer" class="footer position-relative light-background">
 
       <div class="container">
-        <div class="copyright text-center ">
-          <p>© <span>Copyright</span> <strong class="px-1 sitename">iPortfolio</strong> <span>All Rights Reserved</span></p>
+        <div class="copyright text-center mb-2">
+          <p><span>Abde Laziz Ouchouar</span> <strong class="px-1 sitename">Portfolio</strong> <span id="current-year"></span></p>
         </div>
         <div class="social-links text-center">
           <a href="https://wa.me/212617794638" target="_blank" class="whatsapp"><i class="bi bi-whatsapp"></i></a>
@@ -868,6 +873,7 @@
 
     <!-- Main JS File -->
     <script src="assets/js/main.js"></script>
+    <script src="assets/js/translation.js"></script>
 
   </body>
 

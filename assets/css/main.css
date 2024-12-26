@@ -259,6 +259,7 @@ h6 {
   background-color: color-mix(in srgb, var(--accent-color) 90%, white 15%);
 }
 
+
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
@@ -1310,4 +1311,11 @@ section,
   .hero{
     min-height: 70vh;
   }
+}
+
+a:not([href]):not([class]){
+  cursor: pointer;
+}
+a:not([href]):not([class]):hover {
+  color: #149ddd;
 }

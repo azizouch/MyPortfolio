@@ -43,10 +43,10 @@
         <!-- <img src="assets/img/logo.png" alt=""> -->
         <h1 class="sitename" data-i18n="name">Abde laziz Ouchouar</h1>
       </a>
-      <div class="mb-2 text-center">
-        <a href="#" onclick="changeLanguage('en')">English</a> |
-        <a href="#" onclick="changeLanguage('fr')">Français</a> |
-        <a href="#" onclick="changeLanguage('ar')">العربية</a>
+      <div class="mb-2 text-center lang">
+        <a onclick="changeLanguage('en')">English</a> |
+        <a onclick="changeLanguage('fr')">Français</a> |
+        <a onclick="changeLanguage('ar')">العربية</a>
       </div>
 
       <div class="social-links text-center">
@@ -399,8 +399,8 @@
 
         <!-- Section Title -->
         <div class="container section-title" data-aos="fade-up">
-          <h2>Portfolio</h2>
-          <p>My projects reflect my passion for web development and my commitment to creating functional, user-friendly, and visually appealing solutions. From responsive websites to dynamic web applications, each project showcases my ability to combine creativity with technical expertise to meet diverse needs and challenges.</p>
+          <h2 data-i18n="portfolio">Portfolio</h2>
+          <p data-i18n="my_projects">My projects reflect my passion for web development and my commitment to creating functional, user-friendly, and visually appealing solutions. From responsive websites to dynamic web applications, each project showcases my ability to combine creativity with technical expertise to meet diverse needs and challenges.</p>
         </div><!-- End Section Title -->
 
         <div class="container">
@@ -408,11 +408,11 @@
           <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
 
             <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
-              <li data-filter="*" class="filter-active">All</li>
-              <li data-filter=".filter-app">Logos</li>
-              <li data-filter=".filter-product">Symfony Projects</li>
-              <li data-filter=".filter-branding">Django Projects</li>
-              <li data-filter=".filter-books">Desktop Projects</li>
+              <li data-filter="*" class="filter-active" data-i18n="all">All</li>
+              <li data-filter=".filter-app" data-i18n="logos">Logos</li>
+              <li data-filter=".filter-product" data-i18n="symfony_projects">Symfony Projects</li>
+              <li data-filter=".filter-branding" data-i18n="django_projects">Django Projects</li>
+              <li data-filter=".filter-books" data-i18n="desktop_projects">Desktop Projects</li>
             </ul><!-- End Portfolio Filters -->
 
             <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
@@ -574,8 +574,8 @@
 
         <!-- Section Title -->
         <div class="container section-title" data-aos="fade-up">
-          <h2>Services</h2>
-          <p>I offer a range of web development services tailored to meet the unique needs of my clients. From creating responsive and user-friendly websites to developing robust web applications, I am dedicated to delivering high-quality solutions that enhance online presence and drive engagement. My services also include ongoing support and maintenance, ensuring your digital assets remain up-to-date and effective.</p>
+          <h2 data-i18n="services">Services</h2>
+          <p data-i18n="services_offered">I offer a range of web development services tailored to meet the unique needs of my clients. From creating responsive and user-friendly websites to developing robust web applications, I am dedicated to delivering high-quality solutions that enhance online presence and drive engagement. My services also include ongoing support and maintenance, ensuring your digital assets remain up-to-date and effective.</p>
         </div><!-- End Section Title -->
 
         <div class="container">
@@ -585,7 +585,7 @@
             <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="100">
               <div class="icon flex-shrink-0"><i class="bi bi-paint-bucket"></i></div>
               <div>
-                <h4 class="title"><a href="service-details.html" class="stretched-link">Web Designer</a></h4>
+                <h4 class="title"><a href="service-details.html" class="stretched-link" data-i18n="web_designer">Web Designer</a></h4>
                 <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
               </div>
             </div><!-- End Service Item -->
@@ -593,7 +593,7 @@
             <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="200">
               <div class="icon flex-shrink-0"><i class="bi bi-code-slash"></i></div>
               <div>
-                <h4 class="title"><a href="service-details.html" class="stretched-link">Web Developer</a></h4>
+                <h4 class="title"><a href="service-details.html" class="stretched-link" data-i18n="web_developer">Web Developer</a></h4>
                 <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
               </div>
             </div><!-- End Service Item -->
@@ -601,7 +601,7 @@
             <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="300">
               <div class="icon flex-shrink-0"><i class="bi bi-laptop"></i></div>
               <div>
-                <h4 class="title"><a href="service-details.html" class="stretched-link">Desktop Designer</a></h4>
+                <h4 class="title"><a href="service-details.html" class="stretched-link" data-i18n="desktop_designer">Desktop Designer</a></h4>
                 <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
               </div>
             </div><!-- End Service Item -->
@@ -609,7 +609,7 @@
             <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="400">
               <div class="icon flex-shrink-0"><i class="bi bi-braces-asterisk"></i></div>
               <div>
-                <h4 class="title"><a href="service-details.html" class="stretched-link">Desktop Developper</a></h4>
+                <h4 class="title"><a href="service-details.html" class="stretched-link" data-i18n="desktop_developer">Desktop Developper</a></h4>
                 <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
               </div>
             </div><!-- End Service Item -->
@@ -617,7 +617,7 @@
             <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="500">
               <div class="icon flex-shrink-0"><i class="bi bi-database-add"></i></div>
               <div>
-                <h4 class="title"><a href="service-details.html" class="stretched-link">Create Database</a></h4>
+                <h4 class="title"><a href="service-details.html" class="stretched-link" data-i18n="create_database">Create Database</a></h4>
                 <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
               </div>
             </div><!-- End Service Item -->
@@ -625,7 +625,7 @@
             <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="600">
               <div class="icon flex-shrink-0"><i class="bi bi-easel2-fill"></i></div>
               <div>
-                <h4 class="title"><a href="service-details.html" class="stretched-link">Create Logos</a></h4>
+                <h4 class="title"><a href="service-details.html" class="stretched-link" data-i18n="create_logos">Create Logos</a></h4>
                 <p class="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
               </div>
             </div><!-- End Service Item -->
@@ -641,7 +641,7 @@
 
         <!-- Section Title -->
         <div class="container section-title" data-aos="fade-up">
-          <h2>Testimonials</h2>
+          <h2 data-i18n="testimonials">Testimonials</h2>
           <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
         </div><!-- End Section Title -->
 
@@ -753,8 +753,8 @@
 
         <!-- Section Title -->
         <div class="container section-title" data-aos="fade-up">
-          <h2>Contact</h2>
-          <p>For more informations contact me </p>
+          <h2 data-i18n="contact">Contact</h2>
+          <p data-i18n="resume">For more informations contact me </p>
         </div><!-- End Section Title -->
 
         <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -767,15 +767,15 @@
                 <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
                   <i class="bi bi-geo-alt flex-shrink-0"></i>
                   <div>
-                    <h3>Address</h3>
-                    <p>Quartier Azentou Ait Ourir Marrakech</p>
+                    <h3 data-i18n="address_label">Address</h3>
+                    <p data-i18n="address_value">Quartier Azentou Ait Ourir Marrakech</p>
                   </div>
                 </div><!-- End Info Item -->
 
                 <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
                   <i class="bi bi-telephone flex-shrink-0"></i>
                   <div>
-                    <h3>Call Me</h3>
+                    <h3 data-i18n="resume">Call Me</h3>
                     <p>(+212)6 17 79 46 38</p>
                   </div>
                 </div><!-- End Info Item -->
@@ -783,7 +783,7 @@
                 <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
                   <i class="bi bi-envelope flex-shrink-0"></i>
                   <div>
-                    <h3>Email Me</h3>
+                    <h3 data-i18n="resume">Email Me</h3>
                     <p>abdelazizochwar@gmail.com</p>
                   </div>
                 </div><!-- End Info Item -->
@@ -797,31 +797,31 @@
                 <div class="row gy-4">
 
                   <div class="col-md-6">
-                    <label for="name-field" class="pb-2">Your Name</label>
+                    <label for="name-field" class="pb-2" data-i18n="resume">Your Name</label>
                     <input type="text" name="name" id="name-field" class="form-control rounded" required="">
                   </div>
 
                   <div class="col-md-6">
-                    <label for="email-field" class="pb-2">Your Email</label>
+                    <label for="email-field" class="pb-2" data-i18n="resume">Your Email</label>
                     <input type="email" class="form-control rounded" name="email" id="email-field" required="">
                   </div>
 
                   <div class="col-md-12">
-                    <label for="subject-field" class="pb-2">Subject</label>
+                    <label for="subject-field" class="pb-2" data-i18n="resume">Subject</label>
                     <input type="text" class="form-control rounded" name="subject" id="subject-field" required="">
                   </div>
 
                   <div class="col-md-12">
-                    <label for="message-field" class="pb-2">Message</label>
+                    <label for="message-field" class="pb-2" data-i18n="resume">Message</label>
                     <textarea class="form-control rounded" name="message" rows="10" id="message-field" required=""></textarea>
                   </div>
 
                   <div class="col-md-12 text-center">
-                    <div class="loading">Loading</div>
+                    <div class="loading" data-i18n="resume">Loading</div>
                     <div class="error-message"></div>
-                    <div class="sent-message">Your message has been sent. Thank you!</div>
+                    <div class="sent-message" data-i18n="resume">Your message has been sent. Thank you!</div>
 
-                    <button type="submit">Send Message</button>
+                    <button type="submit" data-i18n="resume">Send Message</button>
                   </div>
 
                 </div>
@@ -840,7 +840,7 @@
 
       <div class="container">
         <div class="copyright text-center mb-2">
-          <p><span>Abde Laziz Ouchouar</span> <strong class="px-1 sitename">Portfolio</strong> <span id="current-year"></span></p>
+          <p><span data-i18n="name">Abde Laziz Ouchouar</span> <strong class="px-1 sitename" data-i18n="portfolio">Portfolio</strong> <span id="current-year"></span></p>
         </div>
         <div class="social-links text-center">
           <a href="https://wa.me/212617794638" target="_blank" class="whatsapp"><i class="bi bi-whatsapp"></i></a>
@@ -878,3 +878,4 @@
   </body>
 
 </html>
+<!--i want the json of this : For more informations contact me - Call Me - Email Me - Your Name - Your Email - Subject - Message - Loading - Your message has been sent. Thank you! - Send Message in eng ande fr and arabe-->

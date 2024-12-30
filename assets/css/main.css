@@ -58,7 +58,7 @@
   --margin-left-i: 15px;
   --margin-right-i-menu: 0px;
   --margin-left-i-menu: 10px;
-  .infos{
+  .content .infos{
     margin-right: 10px;
   }
 }

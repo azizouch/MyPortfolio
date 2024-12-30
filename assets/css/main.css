@@ -58,9 +58,6 @@
   --margin-left-i: 15px;
   --margin-right-i-menu: 0px;
   --margin-left-i-menu: 10px;
-  .content .infos{
-    margin-right: 10px;
-  }
 }
 :lang(en), :lang(fr) {
   --border-left: 2px solid var(--accent-color);  /* Show left border in LTR */

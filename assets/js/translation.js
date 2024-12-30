@@ -27,6 +27,7 @@ const main = document.querySelector('main');
 const footer = document.querySelector('footer');
 const header = document.querySelector('.header');
 
+
 // Function to adjust layout based on language and screen size
 function adjustLayout(lang) {
     // Update the `lang` attribute on the `<html>` tag
@@ -50,9 +51,15 @@ function adjustLayout(lang) {
     }
 
     const chevronIcons = document.querySelectorAll('.chevron-icon');
+    // Select all elements with the class 'infos'
+    const elements = document.querySelectorAll('.infos');
 
     chevronIcons.forEach(icon => {
         if (isRtl) {
+            // Loop through each element and set the margin-right style
+            elements.forEach(element => {
+                element.style.marginRight = '10px';
+            });
             // Change to left chevron for Arabic
             icon.classList.remove('bi-chevron-right');
             icon.classList.add('bi-chevron-left');

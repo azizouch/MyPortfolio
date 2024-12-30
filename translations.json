@@ -72,7 +72,18 @@
     "desktop_developer": "Desktop Developer",
     "create_database": "Create Database",
     "create_logos": "Create Logos",
-    "testimonials": "Testimonials"
+    "testimonials": "Testimonials",
+
+    "contact_info": "For more informations contact me",
+    "call_me": "Call Me",
+    "email_me": "Email Me",
+    "your_name": "Your Name",
+    "your_email": "Your Email",
+    "subject": "Subject",
+    "message": "Message",
+    "loading": "Loading",
+    "message_sent": "Your message has been sent. Thank you!",
+    "send_message": "Send Message"
   },
   "fr": {
     "home": "Accueil",
@@ -146,7 +157,18 @@
     "desktop_developer": "Développeur de Bureau",
     "create_database": "Créer une Base de Données",
     "create_logos": "Créer des Logos",
-    "testimonials": "Témoignages"
+    "testimonials": "Témoignages",
+
+    "contact_info": "Pour plus d'informations, contactez-moi",
+    "call_me": "Appelez-moi",
+    "email_me": "Envoyez-moi un e-mail",
+    "your_name": "Votre nom",
+    "your_email": "Votre e-mail",
+    "subject": "Sujet",
+    "message": "Message",
+    "loading": "Chargement",
+    "message_sent": "Votre message a été envoyé. Merci !",
+    "send_message": "Envoyer le message"
   },
   "ar": {
     "home": "الرئيسية",
@@ -221,7 +243,18 @@
     "desktop_developer": "مطور سطح المكتب",
     "create_database": "إنشاء قاعدة بيانات",
     "create_logos": "إنشاء شعارات",
-    "testimonials": "شهادات"
+    "testimonials": "شهادات",
+
+    "contact_info": "لمزيد من المعلومات تواصل معي",
+    "call_me": "اتصل بي",
+    "email_me": "أرسل لي بريدًا إلكترونيًا",
+    "your_name": "اسمك",
+    "your_email": "بريدك الإلكتروني",
+    "subject": "الموضوع",
+    "message": "الرسالة",
+    "loading": "جار التحميل",
+    "message_sent": "تم إرسال رسالتك. شكرًا لك!",
+    "send_message": "إرسال الرسالة"
   }
 }
 

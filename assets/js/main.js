@@ -61,8 +61,6 @@ document.getElementById('current-year').textContent = new Date().getFullYear();
           headerToggleBtn.classList.remove('bi-x');
           headerToggleBtn.classList.add('bi-list');
         }
-      } else {
-        headerImage.style.display = 'none'; // Hide the image
       }
     });
   });

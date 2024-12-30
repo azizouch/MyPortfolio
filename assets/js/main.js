@@ -36,31 +36,33 @@ document.getElementById('current-year').textContent = new Date().getFullYear();
   const header = document.querySelector('#header');
   document.querySelectorAll('#navmenu a').forEach(navmenu => {
     navmenu.addEventListener('click', () => {
-      if (document.querySelector('.header-show-right') || document.querySelector('.header-show-left')) {
-        headerToggle();
+      if (header.classList.contains('header-show-right') || header.classList.contains('header-show-left')) {
+
+        headerImage.style.display = 'block'; // Show the image
+        header.classList.remove('header-show-right');
+        header.classList.remove('header-show-left');
+        if (headerToggleBtn.classList.contains('bi-x')) {
+          headerToggleBtn.classList.remove('bi-x');
+          headerToggleBtn.classList.add('bi-list');
+        }
+      } else {
+        headerImage.style.display = 'none'; // Hide the image
       }
     });
   });
 
   document.querySelectorAll('#languages a').forEach(navmenu => {
     navmenu.addEventListener('click', () => {
-      if (document.querySelector('.header-show-right')) {
-        // header.classList.remove('header-show-right');
-        headerToggle();
-        // Reset the header toggle icon to the default closed state
+      if (header.classList.contains('header-show-right') || header.classList.contains('header-show-left')) {
+        headerImage.style.display = 'block'; // Show the image
+        header.classList.remove('header-show-right');
+        header.classList.remove('header-show-left');
         if (headerToggleBtn.classList.contains('bi-x')) {
           headerToggleBtn.classList.remove('bi-x');
           headerToggleBtn.classList.add('bi-list');
         }
-      }
-      else if (document.querySelector('.header-show-left')){
-        // header.classList.remove('header-show-left');
-        headerToggle();
-        // Reset the header toggle icon to the default closed state
-        if (headerToggleBtn.classList.contains('bi-x')) {
-          headerToggleBtn.classList.remove('bi-x');
-          headerToggleBtn.classList.add('bi-list');
-        }
+      } else {
+        headerImage.style.display = 'none'; // Hide the image
       }
     });
   });
